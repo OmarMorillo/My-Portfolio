@@ -16,7 +16,7 @@ This portfolio collects my baseball player development (PD) projects, organized 
 |---|---|---|---|
 | ⚾ [The Player Development Lab](#-the-player-development-lab) | Python · pandas · Matplotlib | [Brice Turang: Hitter Development Plan](player-development-lab/turang-hitter-development-plan/) | A plan built only from 2024 data said "bat speed first." He gained 4.5 mph and his barrel rate tripled. |
 | 📊 [The Tableau Dugout](#-the-tableau-dugout) | Tableau | [Turang's Swing Rebuild](tableau-dugout/turang-swing-rebuild/) | The same story, rebuilt as six interactive views a coach can click through. |
-| 🔜 [On Deck](#-on-deck) | SQL · Excel · more | Coming next | Pitching, progress dashboards and program evaluation. |
+
 
 ---
 
