@@ -15,6 +15,7 @@ This portfolio collects my baseball player development (PD) projects, organized 
 | Room | Tools | Project | The one-line story |
 |---|---|---|---|
 | ⚾ [The Player Development Lab](#-the-player-development-lab) | Python · pandas · Matplotlib | [Brice Turang: Hitter Development Plan](player-development-lab/turang-hitter-development-plan/) | A plan built only from 2024 data said "bat speed first." He gained 4.5 mph and his barrel rate tripled. |
+| ⚾ [The Player Development Lab](#-the-player-development-lab) | Python · pandas · Matplotlib | [Alex Vesia: Splitter Pitch Design](player-development-lab/vesia-splitter-design/) | His changeup drops only 5.7" off his fastball, from a different slot. A splitter from the same slot would drop 13–16", like Trey Yesavage's already does. |
 | 📊 [The Tableau Dugout](#-the-tableau-dugout) | Tableau | [Turang's Swing Rebuild](tableau-dugout/turang-swing-rebuild/) | The same story, rebuilt as six interactive views a coach can click through. |
 
 
@@ -36,6 +37,20 @@ This portfolio collects my baseball player development (PD) projects, organized 
 **Inside:** a 10-step Jupyter notebook, 9,962 pitches, 20 league leaderboards, league benchmarks and percentiles, a goal scorecard, a three-phase drill plan, and a summary in English and Spanish.
 
 → [Read the project](player-development-lab/turang-hitter-development-plan/) · [Open the notebook](player-development-lab/turang-hitter-development-plan/notebooks/turang_idp.ipynb)
+
+### [Alex Vesia: Splitter Pitch Design](player-development-lab/vesia-splitter-design/)
+
+![The splitter case: drop below the fastball and arm-angle difference](player-development-lab/vesia-splitter-design/outputs/charts/step10_hero_splitter_case.png)
+
+**The question:** should Alex Vesia replace his changeup with a vertical splitter thrown from his fastball slot?
+
+**The answer:** yes. His changeup finishes only 5.7" below his four-seamer and leaves his hand 6.6 (degrees) lower, so it neither drops away from the fastball nor hides behind it.
+
+**The spec:** 82.5–84 mph, 1,250–1,450 rpm, 5–8" of induced vertical break, released within 2 (degrees) of his fastball's arm angle, finishing 13–16" below the four-seamer. Trey Yesavage, the full-season splitter pitcher with the slot closest to Vesia's, already throws that pitch: 12.7" below his fastball, from a slot 0.1 (degrees) away, with a 38.8% whiff rate over 470 pitches.
+
+**Inside:** a 10-step Jupyter notebook, 1,065 Vesia pitches, 59 MLB splitters benchmarked, a full pitch specification, movement and arm-angle charts, and a summary in English and Spanish.
+
+→ [Read the project](player-development-lab/vesia-splitter-design/) · [Open the notebook](player-development-lab/vesia-splitter-design/notebooks/vesia_splitter.ipynb)
 
 ---
 
@@ -59,7 +74,6 @@ Six Tableau views built from the clean data of the Python project: the goal scor
 Projects I'm building next, each in a new tool:
 
 - **The SQL Bullpen:** querying Statcast data with SQL
-- **The Pitch Design Lab:** a pitching project grounded in biomechanics
 - **The Progress Board:** a player progress dashboard
 - **The Year-over-Year Review:** did a program's bat speed gains hold up?
 
@@ -74,7 +88,7 @@ Projects I'm building next, each in a new tool:
 | Baseball Savant / Statcast | Every project |
 | Blast Motion, Trackman, Hawk-Eye, ForceDecks | What I trained with as a player and coach |
 
-**Certifications:** Driveline Foundations of Hitting · Driveline Hitting Coach
+**Certifications:** Driveline Foundations of Hitting · Driveline Hitting Coach · Driveline Basics of Pitch Design
 
 **Education:** B.S. Business, Point Park University (2025) · M.S. Information Systems, Point Park University (expected 2028)
 
@@ -85,4 +99,5 @@ Projects I'm building next, each in a new tool:
 **Del dugout a los datos.** Crecí en Venezuela con un bate, un guante y sin métricas. En Point Park University, los datos de Blast Motion y unos pocos cambios en mi swing transformaron mi primer año difícil en temporadas All-Conference. Por eso estoy aquí: quiero encontrar los pequeños cambios que transforman la carrera de un jugador y demostrarlos con datos.
 
 - **El Laboratorio de Desarrollo (Python):** [plan de desarrollo de Brice Turang](player-development-lab/turang-hitter-development-plan/), con resumen completo en español.
+- **El Laboratorio de Desarrollo (Python):** [diseño de un splitter para Alex Vesia](player-development-lab/vesia-splitter-design/), con resumen completo en español.
 - **El Dugout de Tableau:** [la reconstrucción del swing de Turang](tableau-dugout/turang-swing-rebuild/) en seis vistas interactivas.
