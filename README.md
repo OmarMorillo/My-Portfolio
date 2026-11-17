@@ -44,11 +44,13 @@ This portfolio collects my baseball player development (PD) projects, organized 
 
 **The question:** should Alex Vesia replace his changeup with a vertical splitter thrown from his fastball slot?
 
-**The answer:** yes. His changeup finishes only 5.7" below his four-seamer and leaves his hand 6.6 (degrees) lower, so it neither drops away from the fastball nor hides behind it.
+**The answer:** yes, as an off-season development project. His changeup finishes only 5.7" below his four-seamer and leaves his hand 6.6 degrees lower, so it neither drops away from the fastball nor hides behind it.
 
-**The spec:** 82.5–84 mph, 1,250–1,450 rpm, 5–8" of induced vertical break, released within 2 (degrees) of his fastball's arm angle, finishing 13–16" below the four-seamer. Trey Yesavage, the full-season splitter pitcher with the slot closest to Vesia's, already throws that pitch: 12.7" below his fastball, from a slot 0.1 (degrees) away, with a 38.8% whiff rate over 470 pitches.
+**The specification:** 82.5–84 mph, 1,250–1,450 rpm, 5–8" of induced vertical break, released within 2 degrees of his fastball's arm angle, finishing 13–16" below the four-seamer.
 
-**Inside:** a 10-step Jupyter notebook, 1,065 Vesia pitches, 59 MLB splitters benchmarked, a full pitch specification, movement and arm-angle charts, and a summary in English and Spanish.
+**The evidence:** Trey Yesavage, the full-season splitter pitcher whose slot is closest to Vesia's, already throws that pitch: 12.7" below his fastball, from a slot 0.1 degrees away, with a 38.8% whiff rate over 470 splitters. Applying his four-seamer-to-splitter change to Vesia's four-seamer predicts 6.9" of rise, 14.3" below the fastball, which confirms the specification a second way.
+
+**Inside:** a 10-step Jupyter notebook, 1,065 Vesia pitches, 59 MLB splitters benchmarked, a full pitch specification, a trigonometry-based prediction of the new pitch, movement and arm-angle charts, and a summary in English and Spanish.
 
 → [Read the project](player-development-lab/vesia-splitter-design/) · [Open the notebook](player-development-lab/vesia-splitter-design/notebooks/vesia_splitter.ipynb)
 
